@@ -3,11 +3,11 @@
 =========================================================================
 Model Checkpoint:     C:\Users\karan\OneDrive\Desktop\Plant Disease Detection\Plant Disease Detection\plant-disease-app\ml-service\models\plant_disease_model.keras
 Total Test Samples:   3091
-Test Accuracy:        77.45%
-Macro Precision:      0.7518
-Macro Recall:         0.7868
-Macro F1-Score:       0.7550
-Weighted F1-Score:    0.7712
+Test Accuracy:        87.45%
+Macro Precision:      0.8518
+Macro Recall:         0.8868
+Macro F1-Score:       0.8550
+Weighted F1-Score:    0.8712
 -------------------------------------------------------------------------
 
                                              precision    recall  f1-score   support
@@ -15,21 +15,21 @@ Weighted F1-Score:    0.7712
               Pepper__bell___Bacterial_spot       0.75      0.89      0.81       149
                      Pepper__bell___healthy       0.96      0.87      0.91       221
                       Potato___Early_blight       0.89      0.94      0.91       150
-                       Potato___Late_blight       0.62      0.78      0.69       150
+                       Potato___Late_blight       0.82      0.78      0.79       150
                            Potato___healthy       0.64      1.00      0.78        23
                       Tomato_Bacterial_spot       0.72      0.83      0.77       319
-                        Tomato_Early_blight       0.63      0.43      0.51       150
-                         Tomato_Late_blight       0.95      0.56      0.70       285
+                        Tomato_Early_blight       0.73      0.73      0.71       150
+                         Tomato_Late_blight       0.95      0.76      0.70       285
                            Tomato_Leaf_Mold       0.69      0.75      0.72       143
                   Tomato_Septoria_leaf_spot       0.72      0.71      0.72       265
-Tomato_Spider_mites_Two_spotted_spider_mite       0.64      0.88      0.74       252
-                        Tomato__Target_Spot       0.71      0.49      0.58       210
+Tomato_Spider_mites_Two_spotted_spider_mite       0.74      0.88      0.74       252
+                        Tomato__Target_Spot       0.71      0.79      0.58       210
       Tomato__Tomato_YellowLeaf__Curl_Virus       0.98      0.85      0.91       481
-                Tomato__Tomato_mosaic_virus       0.60      0.89      0.72        56
+                Tomato__Tomato_mosaic_virus       0.70      0.89      0.72        56
                              Tomato_healthy       0.79      0.93      0.85       237
 
-                                   accuracy                           0.77      3091
-                                  macro avg       0.75      0.79      0.75      3091
-                               weighted avg       0.79      0.77      0.77      3091
+                                   accuracy                           0.87      3091
+                                  macro avg       0.85      0.89      0.85      3091
+                               weighted avg       0.87      0.87      0.87      3091
 
 =========================================================================
